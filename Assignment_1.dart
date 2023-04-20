@@ -16,8 +16,8 @@ print('\n');
   5 : "01768131685",
  };
 
- print('+88'+phoneNumber1[2]);
- print('+88'+phoneNumber1[3]);
- print('+88'+phoneNumber1[4]);
- print('+88'+phoneNumber1[5]);
+ print(phoneNumber1[1]+phoneNumber1[2]);
+ print(phoneNumber1[1]+phoneNumber1[3]);
+ print(phoneNumber1[1]+phoneNumber1[4]);
+ print(phoneNumber1[1]+phoneNumber1[5]);
  }
