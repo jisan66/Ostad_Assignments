@@ -1,4 +1,4 @@
-String studentGrade(String studentName , int testScore)
+String studentGrade(String studentName , int testScore)    //Creating the function
 {
   String result='';
   int x=testScore;                           //taking testScore to x
