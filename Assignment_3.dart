@@ -10,12 +10,12 @@ class Car {
     numberOfCars++;
   }
 
-  drive(double miles) {
-    milesDriven++;
+  void drive(double miles) {
+    this.milesDriven=miles;
   }
 
   double getMilesDriven() {
-    return milesDriven;
+   return milesDriven;
   }
 
   String getBrand() {
@@ -48,7 +48,7 @@ void main() {
   car3.drive(2000);
 
   print("The Specification of total ${Car.numberOfCars} cars are:");
-  
+
   print(" 1: Brand: ${car1.getBrand()}, Model: ${car1.getModel()}, Release Year: ${car1.getYear()}, Driven: ${car1.getMilesDriven()} miles, Age: ${car1.getAge()} years");
   print(" 2: Brand: ${car2.getBrand()}, Model: ${car2.getModel()}, Release Year: ${car2.getYear()}, Driven: ${car2.getMilesDriven()} miles, Age: ${car2.getAge()} years");
   print(" 3: Brand: ${car3.getBrand()}, Model: ${car3.getModel()}, Release Year: ${car3.getYear()}, Driven: ${car3.getMilesDriven()} miles, Age: ${car3.getAge()} years");
